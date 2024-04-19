@@ -1,0 +1,109 @@
+/* External CSS */
+body {
+    background-image: url("file:///C:/Users/ge/Desktop/Milambiling 2C/images/ad bg.png");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 2px solid #000; /* Any color */
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}
+
+.wrapper {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.self-portfolio {
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: Arial ,sans-serif;
+    color: floralwhite;
+}
+
+.profile-image {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+}
+.name{
+    text-align: center;
+}
+.name a {
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+    padding:0;
+    margin:0;
+}
+
+.name a:hover {
+    border: 2px solid #000; /* Any color */
+    background-color: royalblue; /* Any color */
+    border-radius: 8px;
+    padding:0px;
+    margin:0px;
+}
+
+.introduction-text {
+	color: ghostwhite;
+}
+
+.self-introduction, .expertise, .it-background, .applications-used {
+    margin-top: 20px;
+    border-collapse: collapse;
+    background-color: palevioletred;
+    color:white;
+    font-style: italic;  
+    padding:20px;
+}
+.educational-background {
+    margin-top: 20px;
+    padding: 0px;
+    border-bottom: 2px solid black;
+    color: floralwhite;
+}
+
+.education-table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: palevioletred;
+    padding:20px;
+}
+
+.education-table th {
+    padding: 8px;
+    border: 2px solid #000; /* Black border */
+    text-align: center;
+    color:white;
+    padding:20px;
+    background-color: palevioletred;
+}
+.education-table td {
+    color: black;
+    text-align: center;
+    padding: 10px;
+    background-color: lightcyan;
+    border: 1px solid black; 
+}
+
+.expertise-list {
+    list-style-type: square;
+    padding-left: 20px;
+    color: floralwhite;
+}
+
+.it-background-text {
+	color: floralwhite;
+}
+.applications-list{
+    color:white;
+}
+.applications-list{
+    list-style-type: decimal;
+}
